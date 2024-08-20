@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="box">
+    <h1>Do You Love Me</h1>
+    <button id="target">No</button>
+    <button id="yes">Yes</button>
+   </div>
+  </div>
+  
+  <script>
+    const target = document.getElementById('target')
+    let yes = document.getElementById('yes')
+    
+   // tabnine: test | explain | document | ask
+   yes.addEventListener('click', () => {
+   alert("love you tou");
+   })
+   
+   // tabnine: test | explain | document | ask
+   function moveTarget(){
+     const maxWidth = 400;
+     const maxHeight = 400;
+     const ranomX = Math.floor(Math.random() * maxWidth);
+     const ranomY = Math.floor(Math.random() * maxHeight);
+     target.style.left = ranomX + 'px';
+     target.style.left = ranomX + 'px';
+   }
+  </script>
+</body>
+</html>

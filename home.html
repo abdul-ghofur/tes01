@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+     <meta name="description" content="" />
+       <meta name="author" content="" />
+  <title> Home </title>
+                  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font Awesome icons (free version)-->
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="navbar.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css"/>
+       </head>  
+</head>
+    <body>
+     <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">DARFIK 169</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">DARFIK 169</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+         <li onclick="myFunction()"><i class="fa fa-adjust" style="color: white;"></i></li> 
+          <li><a href="#">HOME</a></li>
+          <li>
+          <li><a href="#">PERPUSTAKAAN</a></li>
+          <li>
+            <a href="#">PROFIL DF</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Sejarah</a></li>
+              <li><a href="#">Galeri</a></li>
+              <li><a href="#">Majlis Ta'lim</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">BERKAS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Al-hasyiah Al-Martiyah</a></li>
+              <li><a href="#">Daftar Kitab</a></li>
+              <li><a href="#">File Microsoft</a></li>
+                            <li class="more">
+                <span><a href="#">Program</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Hisab Istilahi</a></li>
+                  <li><a href="#">Hisab Taqribi Haqieqie</a></li>
+                  <li><a href="#">Rubu Mujayyab</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">TENTANG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+              <form role="search" id="form">
+          <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content"> 
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+   <!-- Main Js -->
+  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+          <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+      <script src="scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+               <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+              <!-- js -->
+      <script src="navbar.js"></script>        
+      <script src="pustaka.js"></script>  
+
+
+</body>
+</html>
